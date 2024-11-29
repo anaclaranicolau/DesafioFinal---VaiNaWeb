@@ -74,3 +74,20 @@
     }
   }
   
+
+  @media (max-width: 768px){
+    .header{
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .logoHeader{
+      width: 70%;
+    }
+    .navHeader{
+      width: 100%;
+    
+    .barraDeBusca{
+     display: none;
+    }
+  }
+}

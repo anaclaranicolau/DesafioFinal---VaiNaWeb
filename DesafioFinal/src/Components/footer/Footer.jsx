@@ -3,7 +3,7 @@ import Facebook from '../../assets/Facebook.png'
 import Twitter from '../../assets/Twitter.png'
 import Youtube from '../../assets/Youtube.png'
 import Linkedin from '../../assets/Linkedin.png'
-        
+import Instagram from '../../assets/Instagram.png'       
 
     export default function Footer(){
             return(
@@ -15,6 +15,7 @@ import Linkedin from '../../assets/Linkedin.png'
                             <a href=""><img src={Twitter} alt="logo do twitter" /></a>
                             <a href=""><img src={Youtube} alt="logo do Youtube" /></a>
                             <a href=""><img src={Linkedin} alt="logo do LinkedIn"/></a>
+                            <a href=""><img src={Instagram} alt="logo do Instagram" /></a>
                            </nav> 
                            </section>
                            <section className={s.copyright}>
