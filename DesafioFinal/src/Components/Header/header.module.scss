@@ -78,16 +78,23 @@
   @media (max-width: 768px){
     .header{
       flex-direction: column;
-      justify-content: space-evenly;
+      height: 50%;
+      
     }
     .logoHeader{
-      width: 70%;
+      width: 60%;
+    }
+
+    h1{
+      font-size: 4vw;
     }
     .navHeader{
-      width: 100%;
+      width: 120%;
+      height: 50%;
     
-    .barraDeBusca{
-     display: none;
+    .barraDeBusca {
+      display: none;
+     
     }
   }
 }

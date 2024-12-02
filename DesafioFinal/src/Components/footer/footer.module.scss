@@ -19,10 +19,28 @@
     align-items: center;
     display: flex;
     justify-content: space-around;
-    height: 20px ;
+    height: 30px ;
      
     p{
         color: #fff;
     }
 
+}
+
+@media(max-width: 780px){
+    .contatosFooter{
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        nav{
+            width: 60%;
+        }
+    }
+    .copyright{
+        p{
+            font-size: 12px;
+            width: 60%;
+            text-align: center;
+        }
+    }
 }
