@@ -33,7 +33,7 @@ export default function queroDoar(){
             autor,
             image_url
         }
-        await axios.post("https://desafio2vainaweb-api-livros.onrender.com//", dadosPEnviar)
+        await axios.post("https://desafio2vainaweb-api-livros.onrender.com/doar", dadosPEnviar)
     
     }
 
